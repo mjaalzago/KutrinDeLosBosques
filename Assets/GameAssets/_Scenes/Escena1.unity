@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -282,7 +282,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &243054430
 Prefab:
@@ -553,7 +553,7 @@ Transform:
   - {fileID: 364657754}
   - {fileID: 614510386}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &459963600 stripped
 Transform:
@@ -610,6 +610,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabAsset: 0
+--- !u!4 &508431362 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 2}
+  m_PrefabInternal: {fileID: 508431361}
 --- !u!1001 &514722035
 Prefab:
   m_ObjectHideFlags: 0
@@ -1124,10 +1129,77 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 224.3, y: 0.708, z: 149.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1878530050}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1151899833
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 22494448, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 480952, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 228.46541
+      objectReference: {fileID: 0}
+    - target: {fileID: 480952, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 480952, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 130.01186
+      objectReference: {fileID: 0}
+    - target: {fileID: 480952, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 480952, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 480952, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 480952, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 480952, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22416264, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.1275635
+      objectReference: {fileID: 0}
+    - target: {fileID: 22472304, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.034301758
+      objectReference: {fileID: 0}
+    - target: {fileID: 22472304, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.27300072
+      objectReference: {fileID: 0}
+    - target: {fileID: 22472304, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 163082, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+      propertyPath: m_Name
+      value: 2DNarrationSystem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81bc1efb6a09c7a468f85500c18ef233, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!4 &1318234448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5e555449373849a4ea61ddc213409c81,
@@ -1620,6 +1692,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 940d55d4117386f4f9398ea3ff52d4cd,
     type: 2}
   m_PrefabInternal: {fileID: 868197619}
+--- !u!1 &1878530049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1878530050}
+  - component: {fileID: 1878530051}
+  m_Layer: 0
+  m_Name: Dialogos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1878530050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878530049}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1141892597}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1878530051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878530049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b64140504f9afa49890af388446118e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 0
+  narrationList: {fileID: 0}
+  theNarration:
+    busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 0}
+      text: "Ya que has llegado hasta aqu\xED eres digno para empu\xF1arme y seguir
+        tu viaje en busca de tu amigo"
+      duration: 3
+      drawAudio: 1
+      lastCalculatedHeight: 90
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 1
+    lastCalculatedHeight: 178
+    useSmartSubs: 0
+  OnFailure: 0
+  OnSuccess: 0
+  ResetCooldown: 0
+  delayPlayingBy: 0
+  is2D: 0
+  triggeredBy: {fileID: 508431362}
+  proximity: 7
+  timeInProximityToTrigger: 0
+  timeMustBeConsecutive: 0
 --- !u!1 &1899487338
 GameObject:
   m_ObjectHideFlags: 0
